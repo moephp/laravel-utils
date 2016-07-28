@@ -1,0 +1,28 @@
+{
+  "name": "moephp/laravel-utils",
+  "type": "library",
+  "description": "utils for laravel",
+  "keywords": [
+    "laravel",
+    "utils"
+  ],
+  "homepage": "https://github.com/moephp/laravel-utils",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "orvice",
+      "email": "moephp@orx.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Moephp\\LaravelUtils\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  }
+}
